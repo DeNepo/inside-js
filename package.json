@@ -1,0 +1,35 @@
+{
+  "name": "debugging",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write ./",
+    "format:check": "prettier --check ./",
+    "spell-check": "cspell  './**'",
+    "lint:ls": "ls-lint",
+    "lint:md": "markdownlint --ignore node_modules --config ./.markdownlint.jsonc --fix ./ ",
+    "lint:js": "eslint --max-warnings=0 --ext=.js --format=codeframe",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest --passWithNoTests"
+  },
+  "author": "HackYourFutureBelgium",
+  "license": "MIT",
+  "devDependencies": {
+    "@ls-lint/ls-lint": "^1.11.0",
+    "cspell": "^5.9.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jest": "^26.1.5",
+    "eslint-plugin-jsdoc": "^36.1.0",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-sonarjs": "^0.9.1",
+    "jest": "^27.0.6",
+    "markdownlint-cli": "^0.28.1",
+    "misc-utils-of-mine-typescript": "0.0.12",
+    "prettier": "^2.3.2"
+  }
+}
