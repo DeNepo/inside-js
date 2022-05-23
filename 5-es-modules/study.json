@@ -1,0 +1,11 @@
+{
+  "study": {
+    "type": "module",
+    "environment": true,
+    "flowchart": false,
+    "variables": false,
+    "loopGuard": false,
+    "ask": false,
+    "trace": false
+  }
+}

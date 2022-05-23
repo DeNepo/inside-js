@@ -1,5 +1,5 @@
 {
-  "plugins": ["prettier", "jsdoc", "prefer-arrow", "sonarjs"],
+  "plugins": ["prettier", "jsdoc", "prefer-arrow", "sonarjs", "jest"],
   "env": {
     "browser": false
   },
@@ -21,16 +21,10 @@
   ],
   "overrides": [
     {
-      "files": ["*.test.js", "*.spec.js"],
+      "files": ["**.test.js", "**.spec.js"],
       "rules": {
         "no-magic-numbers": 0
       },
-      "globals": {
-        "describe": "readonly",
-        "it": "readonly",
-        "expect": "readonly"
-      },
-      "plugins": ["jest"],
       "env": {
         "jest": true
       }
