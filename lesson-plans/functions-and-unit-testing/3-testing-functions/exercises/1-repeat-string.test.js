@@ -3,8 +3,8 @@
 /**
  * Repeats a string a specific number of times.
  *
- * @param {string} [text=''] - The string to repeat.
- * @param {number} [repeats=1] - The number of times to repeat.
+ * @param {string} text - The string to repeat.
+ * @param {number} repeats - The number of times to repeat.
  * @returns {string} The repeated string.
  */
 const repeatString = () => {};

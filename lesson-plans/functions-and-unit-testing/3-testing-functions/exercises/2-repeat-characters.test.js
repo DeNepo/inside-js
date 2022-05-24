@@ -3,8 +3,8 @@
 /**
  * Repeats each character in a string a specific number of times.
  *
- * @param {string} [text=''] - The string with characters to repeat.
- * @param {number} [repeats=1] - How many times to repeat each character.
+ * @param {string} text - The string with characters to repeat.
+ * @param {number} repeats - How many times to repeat each character.
  * @returns {string} The string with repeated characters.
  */
 const repeatCharacters = () => {};

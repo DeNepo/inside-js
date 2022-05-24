@@ -34,16 +34,12 @@ know for now!
   value_.
 - 🐣 **Reading Documentation**: You can read a JS Doc comment to understand what
   a function should do.
-- 🐣 **Default Parameters**: You can explain how default parameters work, and
-  how they can help a developer understand a function.
-- 🐣 **Reading Unit Tests**: You can read unit tests and their output to
-  understand what a function is supposed to do.
-- 🐥 **Writing Documentation**: You can write a JS Doc comment to describe a
+- 🐣 **Writing Documentation**: You can write a JS Doc comment to describe a
   working function.
-- 🐥 **Writing Unit Tests**: You can write several passing unit tests for a
-  simple function. Your tests should cover at least 1-2 different _edge cases_.
-- 🐔 **Passing Unit Tests**: You can write a function's parameters and body so
-  it passes unit tests.
+- 🐥 **Reading Unit Tests**: You can read unit tests and their output to
+  understand what a function is supposed to do.
+- 🐥 **Passing Unit Tests**: You can use unit test output to help you write a
+  passing function.
 
 ---
 
@@ -61,6 +57,8 @@ know for now!
 ### After Break
 
 - **All together:** `3-testing-functions/examples`
+  - in VSCode using `npm run test -- ./path/to/file.test.js`
+  - or in the browser using study lenses
 - **In Small Groups:**
   - `3-testing-functions/exercises`
   - finish `2-documenting-functions` if you have time
@@ -87,7 +85,7 @@ Testing Functions</a>
 ## After Class
 
 Keep working your way through the exercises in this repo and your favorite
-tutorials.
+online tutorials.
 
 You have already seen some of the material in the first chapters. Instead of
 rushing through it, take this chance to review the basics before moving forward.

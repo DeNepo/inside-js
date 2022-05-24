@@ -5,10 +5,10 @@ console.log('-- begin --');
 /**
  * Reverses a string.
  *
- * @param {string} [text=''] - The string to reverse.
+ * @param {string} text - The string to reverse.
  * @returns {string} The original string, backwards.
  */
-const reverser = (text = '') => {
+const reverser = (text) => {
   let reversedText = '';
   for (const char of text) {
     reversedText = char + reversedText;

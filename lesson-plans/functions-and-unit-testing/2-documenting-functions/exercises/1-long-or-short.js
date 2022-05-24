@@ -5,11 +5,11 @@ console.log('-- begin --');
 /**
  * _
  *
- * @_ {_} [_=_] - _
- * @_ {_} [_=_] - _
+ * @_ {_} _ - _
+ * @_ {_} _ - _
  * @_ {_} _
  */
-const longOrShort = (text = '', cutoff = 0) => {
+const longOrShort = (text, cutoff) => {
   if (text.length < cutoff) {
     return 'short';
   } else {

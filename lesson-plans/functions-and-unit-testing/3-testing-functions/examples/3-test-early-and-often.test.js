@@ -15,10 +15,10 @@
 /**
  * Reverses a string.
  *
- * @param {string} [str=''] - The string to reverse.
+ * @param {string} str - The string to reverse.
  * @returns {string} The input string, but backwards.
  */
-const reverseString = (str = '') => {};
+const reverseString = (str) => {};
 
 describe('reverseString: reverses any string', () => {
   it('reverses an empty string', () => {

@@ -18,8 +18,7 @@
 
   to run tested files you will need to either:
   - use `study-lenses` + your browser's debugger
-  - use VSCode's debugger
-  there's more info on this in the main README's "Getting Started" section
+  - use terminal with the command `npm run test -- ./path/to/file.test.js`
 
 
 */

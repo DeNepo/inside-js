@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 console.log('-- begin --');
@@ -9,13 +7,12 @@ console.log('-- begin --');
   to understand a function you need to think of 3 things:
 
   1. BEHAVIOR: what does the it do? what is it used for?
-  2. PARAMETERS: what type should they be? what are they called? why are they needed? is there a default?
+  2. PARAMETERS: what type should they be? what are they called? why are they needed?
   3. RETURN VALUE: what type will it be? what is it used for?
 
   there is a conventional way to describe your functions with a comment
   it's called JSDoc format, and you'll practice this today
     - https://jsdoc.app/tags-param.html
-    - - https://jsdoc.app/tags-param.html#optional-parameters-and-default-values
     - https://jsdoc.app/tags-returns.html
 
   these are just comments! like the comment you're reading now
@@ -45,11 +42,11 @@ const findTheType = (value) => {
 /**
  * Adds two numbers together.
  *
- * @param {number} [x=0] - The left operand.
- * @param {number} [y=0] - The right operand.
+ * @param {number} x - The left operand.
+ * @param {number} y - The right operand.
  * @returns {number} The sum of x and y.
  */
-const add = (x = 0, y = 0) => {
+const add = (x, y) => {
   return x + y;
 };
 
@@ -67,10 +64,10 @@ const strictEqual = (a, b) => {
 /**
  * Returns a new string with all of the letters reversed.
  *
- * @param {string} [str=''] - The string to be reversed.
+ * @param {string} str - The string to be reversed.
  * @returns {string} A new string, the parameter backwards.
  */
-const reverseString = (str = '') => {
+const reverseString = (str) => {
   return str.split('').reverse().join('');
 };
 

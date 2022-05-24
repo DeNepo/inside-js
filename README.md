@@ -34,7 +34,7 @@ your study time and to measure your progress:
 
 ### [0. Asserting](./0-asserting)
 
-- **Skills**
+- **Skills**:
   - [ ] 🥚 **Predicting Execution**: You can use the browser's debugger to step
         through your code. Before each step you can make a prediction about what
         will happen, after each step you can check your prediction.
@@ -58,7 +58,7 @@ your study time and to measure your progress:
 
 ### [1. Primitives and Operators](./1-primitives-and-operators)
 
-- **Skills**
+- **Skills**:
   - [ ] 🥚 **Predicting Truthiness**: You can predict the truthiness of any
         primitive value.
   - [ ] 🐣 **Tracing Operators**: You can use an operators trace table to
@@ -93,7 +93,7 @@ your study time and to measure your progress:
 
 ### [2. Control Flow](./2-control-flow)
 
-- **Skills**
+- **Skills**:
   - [ ] 🥚 **Imperative Programming**: You can define the _imperative_
         programming paradigm and can explain how you know the programs in this
         chapter are _imperative_.
@@ -133,7 +133,7 @@ your study time and to measure your progress:
 
 ### [3. Functions](./3-functions)
 
-- **Skills**
+- **Skills**:
   - [ ] 🥚 **Tracing**: You can use the debugger to predict and check the
         execution of small programs that use functions. This includes:
   - [ ] 🥚 **Test Cases**: You can explain a simple function's _behavior_ using
@@ -167,7 +167,7 @@ your study time and to measure your progress:
 
 ### [5. Unit Testing](./5-unit-testing)
 
-- **Skills**
+- **Skills**:
   - [ ] 🥚 **Testing Environments**: You understand that the conventional
         `describe`/`it`/`expect.toEqual` functions are defined by a _testing
         library_ and made available as _global variables_ in a testing
@@ -193,7 +193,7 @@ your study time and to measure your progress:
 
 ### [6. ES Modules](./6-es-modules)
 
-- **Skills**
+- **Skills**:
   - [ ] 🥚 **Spec Files**: You can work with functions and unit tests separated
         into two files.
   - [ ] 🥚 **Visualizing Dependencies**: You can use the
@@ -214,7 +214,7 @@ your study time and to measure your progress:
 
 ### [6. Using Functions](./6-using-functions)
 
-- **Skills**
+- **Skills**:
   - [ ] 🥚 **Procedural Programming**: You can define the _procedural_
         programming paradigm and can explain how you know the programs in this
         chapter are _procedural_.
@@ -231,7 +231,7 @@ your study time and to measure your progress:
 
 ### [7. Arrays](./7-arrays)
 
-- **Skills**
+- **Skills**:
   - [ ] 🥚 **Reference vs. Value**: You can explain how arrays are stored in
         memory and can demonstrate using examples run in JS Tutor.
   - [ ] 🥚 **Deep vs. Shallow Comparison**: You can explain use the concept of
@@ -284,7 +284,7 @@ your study time and to measure your progress:
 
 ### [8. Functional Array Methods](./8-functional-array-methods)
 
-- **Skills**
+- **Skills**:
   - [ ] 🥚 **Declarative Programming**: You can define the _declarative_
         programming paradigm and can explain how you know that code using
         functional array methods is _declarative_.
