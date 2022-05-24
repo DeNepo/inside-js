@@ -1,7 +1,9 @@
 # Operator Precedence
 
 > Practice using a trace-table to step through expressions with multiple
-> operators. Watch the guide to see how it's done.
+> operators.
+>
+> [Guide video](https://vimeo.com/713213574)
 
 In JavaScript you will come across long expressions written in one line. This
 code will become less mysterious after you understand Operator Precedence.

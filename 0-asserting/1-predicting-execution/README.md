@@ -1,5 +1,7 @@
 # Predicting Execution
 
+> [Guide video](https://vimeo.com/713207359)
+
 Studying JavaScript will be challenging. The HYF way of learning is not
 glamorous. You will need to learn how to study JS, and very importantly
 

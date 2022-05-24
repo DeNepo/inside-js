@@ -1,5 +1,7 @@
 # Truthiness Operators
 
+> [Guide video](https://vimeo.com/713213108)
+
 Operators that work according to the _truthiness_ of their arguments.
 
 ## Truth Tables
