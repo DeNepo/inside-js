@@ -15,6 +15,6 @@ desert = desert + ' with ' + topping;
 console.assert(desert === _, 'Test 2');
 
 _;
-console.assert(desert); // should log 'chocolate cake with frosting and banana'
+console.assert(desert === ,'Test 3');
 
 console.log('-- end --');
