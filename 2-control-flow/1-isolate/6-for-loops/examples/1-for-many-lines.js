@@ -1,9 +1,7 @@
 // #todo
 
-// 1: use strict
+// 1: use strict (in JSTutor)
 'use strict';
-
-console.log('-- begin --');
 
 /*
 
@@ -36,4 +34,5 @@ for (
   console.log(step);
 }
 
-console.log('-- end --');
+// 13: done
+console.log('done');
