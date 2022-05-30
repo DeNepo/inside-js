@@ -16,6 +16,13 @@ const checkIt = (text = '', cb) => {
 
 // --- declare and test first callback ---
 
+/**
+ * Checks if a string is a palindrome.
+ * (the same forwards and backwards)
+ *
+ * @param {string} [str=''] - The string to check.
+ * @returns {boolean} Whether or not the string is a palindrome.
+ */
 const isPalindrome = (str = '') => {};
 
 const check1 = checkIt('RacEcaR', isPalindrome);
@@ -29,6 +36,13 @@ console.assert(check3 === 'yes', 'Test 3');
 
 // --- declare and test second callback ---
 
+/**
+ * Checks if a string is "JavaScript" or "JS".
+ * The check is not case-sensitive.
+ *
+ * @param {string} [str=''] - The string to check.
+ * @returns {boolean} Whether or not the string is JS.
+ */
 const isJS = (txt = '') => {};
 
 const check4 = checkIt('JavaSCripT', isJS);

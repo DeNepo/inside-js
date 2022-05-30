@@ -1,15 +1,4 @@
-// #todo
-
 'use strict';
-
-console.log('-- begin --');
-
-/* filtering with a callback
-  you might have noticed that these loops strategies are repetitive
-  higher order functions will help you write more reusable code
-
-  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Filter
-*/
 
 /**
  * calls the callback with each item in the array
@@ -31,6 +20,8 @@ const filter = (arr = [], callback = () => {}) => {
   return filtered;
 };
 
+// ----------------
+
 const argArray = [3, true, 'hi', '', 0];
 
 // Callback to check if the value is a string
@@ -51,10 +42,7 @@ const _2_expect = [3, true, 'hi'];
 const _2_actual = filter(argArray, isTruthy);
 console.assert(deepCompare(_2_actual, _2_expect), 'Test 2: all truthy values');
 
-console.log('-- end --');
-
-// hoisted to keep it out of your way in the editor
-// in one line so it's out of your way in JS Tutor
+// ----------------
 
 // prettier-ignore
 function deepCompare(actual, expect) { return ( actual === expect || Object.is(actual, expect) || (Object(actual) === actual && Object(expect) === expect && ((Array.isArray(actual) && Array.isArray(expect) && actual.length === expect.length && expect.every((expect, index) => deepCompare(actual[index], expect))) || (Object.keys(actual).length === Object.keys(expect).length && Object.keys(expect).every(key => deepCompare(actual[key], expect[key]))))));} // eslint-disable-line

@@ -2,11 +2,11 @@
 
 /* Passing Functions
 
-  the big idea of callbacks is not so complicated:
+  the big idea of callbacks is not complicated:
     1. pass a function as an argument
     2. use that function inside of another function
 
-  callbacks is about how you USE the function
+  callbacks are about how you USE a function
     they're just normal functions!
 
 */
@@ -51,5 +51,5 @@ console.assert(check3 === 'no', 'Test 3');
 const check4 = checkIt('concatenate', hasACat);
 console.assert(check4 === 'yes', 'Test 4');
 
-const check5 = checkIt('_', isMyName);
-console.assert(check5 === '_', 'Test 5');
+const check5 = checkIt('__', isMyName); // <-- your name here
+console.assert(check5 === 'yes', 'Test 5');
