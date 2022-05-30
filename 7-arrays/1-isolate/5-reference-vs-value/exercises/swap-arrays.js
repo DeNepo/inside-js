@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 // -- declare variables (this is correct) --

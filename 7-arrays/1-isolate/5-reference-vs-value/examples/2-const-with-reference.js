@@ -1,8 +1,4 @@
-// #todo
-
 'use strict';
-
-console.log('-- begin --');
 
 // using const with arrays objects is like locking your backpack to a pole
 //  someone can't steal your bag because it's locked in place
@@ -10,7 +6,7 @@ console.log('-- begin --');
 
 // in JS Tutor:
 //  you can change what is stored in the array
-//  you CAN NOT move the arrow reference connected to the variable
+//  you CAN NOT change the arrow reference connected to the variable
 
 const constantArray = [4];
 constantArray[0] = 6; // no error
@@ -25,5 +21,3 @@ letArray[1] = 7; // no error
 letArray.push(12); // no error
 letArray.pop(); // no error
 letArray = [6]; // no error
-
-console.log('-- end --');
