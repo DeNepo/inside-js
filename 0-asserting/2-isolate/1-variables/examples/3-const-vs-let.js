@@ -21,7 +21,6 @@ console.log('-- begin --');
 // this will throw an error
 //  "Assignment to constant variable"
 const constantVariable2 = 'constant value';
-constantVariable2 = 'new value';
 console.log(constantVariable2);
 
 // --- let ---

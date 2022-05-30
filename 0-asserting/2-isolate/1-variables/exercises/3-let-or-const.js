@@ -20,34 +20,34 @@ console.log('-- begin --');
 */
 
 // declare a variable named aTree, don't assign a value!
-_;
+let aTree;
 console.log(aTree);
 
 // assign the value "birch" to the variable aTree
-_;
+aTree = 'birch';
 console.log(aTree);
 
 // declare a variable named turtle and assign it the name "myrtle"
-_;
+let turtle  = 'myrtle';
 console.log(turtle);
 
 // reassign aTree to "aspen"
-_;
+aTree = 'aspen';
 console.log(aTree);
 
 // declare a variable named aColor with the value "blue"
-_;
+let aColor = 'blue';
 console.log(aColor);
 
 // log the value of turtle
-_;
+console.log(turtle);
 
 // reassign aTree to "oak"
-_;
+aTree = 'oak';
 console.log(aTree);
 
 // reassign aColor to "orange"
-_;
+aColor = 'orange';
 console.log(aColor);
 
 console.log('-- end --');

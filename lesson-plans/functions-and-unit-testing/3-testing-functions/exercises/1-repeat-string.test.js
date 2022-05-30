@@ -7,7 +7,13 @@
  * @param {number} repeats - The number of times to repeat.
  * @returns {string} The repeated string.
  */
-const repeatString = () => {};
+const repeatString = (text, repeats) => {
+  let repeatedText = '';
+  for (let i = 0; i < repeats; i++) {
+    repeatedText = repeatedText + text;
+  }
+  return repeatedText;
+};
 
 describe('repeatString: repeats a string a specific number of times', () => {
   it('repeats a string 0 times', () => {
