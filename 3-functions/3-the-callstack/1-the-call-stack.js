@@ -2,9 +2,13 @@
 
 console.log('-- begin --');
 
-/* the callstack happens when you call a function from inside a function call
-  this is much easier to visualize than to describe, so ... JS Tutor!
+/* the call stack happens when you call a function from inside a function call
+  this is much easier to visualize than to describe, so try using ...
+    the debugger, trace & JS Tutor!
+
+  Colt Steele explains: https://www.youtube.com/watch?v=W8AeMrVtFLY
 */
+
 let depth = 0;
 
 const func1 = () => {
