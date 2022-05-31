@@ -19,25 +19,33 @@ console.log('-- begin --');
 
 */
 
-__;
+const x = 'a';
 console.assert(x === 'a', 'Test 1');
+console.log(x === 'a', 'Test 1');
 
-__;
+let y = 'b';
 console.assert(y === 'b', 'Test 2');
+console.log(y === 'b', 'Test 2');
 
 console.assert(x === 'a', 'Test 3');
+console.log(x === 'a', 'Test 3');
 
-__;
+let z = '';
 console.assert(z === '', 'Test 4');
+console.log(z === '', 'Test 4');
 
 console.assert(y === 'b', 'Test 5');
+console.log(y === 'b', 'Test 5');
 
-__;
+z = 'c';
 console.assert(z === 'c', 'Test 6');
+console.log(z === 'c', 'Test 6');
 
-__;
+y = y + 'd';
 console.assert(y === 'bd', 'Test 7');
+console.log(y === 'bd', 'Test 7');
 
 console.assert(x === 'a', 'Test 8');
+console.log(x === 'a', 'Test 8');
 
 console.log('-- end --');

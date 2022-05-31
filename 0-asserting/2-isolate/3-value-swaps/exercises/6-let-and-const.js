@@ -14,27 +14,27 @@ let temp;
 // --- swap values ---
 
 temp = a;
-console.assert(temp === _, 'Step 1.1');
-console.assert(a === _, 'Step 1.2');
+console.assert(temp === 'y', 'Step 1.1');
+console.assert(a === 'y', 'Step 1.2');
 
 a = b;
-console.assert(a === _, 'Step 2.1');
-console.assert(b === _, 'Step 2.2');
+console.assert(a === 'z', 'Step 2.1');
+console.assert(b === 'z', 'Step 2.2');
 
 const d = a;
-console.assert(d === _, 'Step 3.1');
-console.assert(a === _, 'Step 3.2');
+console.assert(d === 'z', 'Step 3.1');
+console.assert(a === 'z', 'Step 3.2');
 
 // --- test final values ---
 
-console.assert(a === _, 'Test 1');
+console.assert(a === 'z', 'Test 1');
 
-console.assert(b === _, 'Test 2');
+console.assert(b === 'z', 'Test 2');
 
-console.assert(c === _, 'Test 3');
+console.assert(c === 'x', 'Test 3');
 
-console.assert(d === _, 'Test 4');
+console.assert(d === 'z', 'Test 4');
 
-console.assert(temp === _, 'Test 5');
+console.assert(temp === 'y', 'Test 5');
 
 console.log('-- end --');

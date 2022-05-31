@@ -19,26 +19,37 @@ console.log('-- begin --');
 
 */
 
-__;
+let furniture = 'chair';
 console.assert(furniture === 'chair', 'Test 1');
+console.log(furniture === 'chair', 'Test 1');
 
-__;
+const building = 'house';
 console.assert(building === 'house', 'Test 2');
+console.log(building === 'house', 'Test 2');
 
 furniture = 'table';
-console.assert(__ === __, 'Test 3');
+console.assert(furniture === 'table', 'Test 3');
+console.log(furniture === 'table', 'Test 3')
 
-__;
+let food  = '';
 console.assert(food === '', 'Test 4');
+console.log(food === '', 'Test 4');
 
-__ = 'apple';
-console.assert(food === __, 'Test 5');
 
-console.assert(__ === 'house', 'Test 6');
+food = 'apple';
+console.assert(food === 'apple', 'Test 5');
+console.log(food === 'apple', 'Test 5');
 
-console.assert(__ === 'table', 'Test 7');
+console.assert(building === 'house', 'Test 6');
+console.log(building === 'house', 'Test 6');
 
-food = __;
-console.assert(__ === 'pear', 'Test 8');
+console.assert(furniture === 'table', 'Test 7');
+console.log(furniture === 'table', 'Test 7');
+
+food = 'pear';
+console.assert(food === 'pear', 'Test 8');
+console.log(food === 'pear', 'Test 8');
+
+
 
 console.log('-- end --');
