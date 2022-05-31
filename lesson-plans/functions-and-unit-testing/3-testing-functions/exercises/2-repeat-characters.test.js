@@ -19,7 +19,7 @@ describe('repeatCharacters: repeats each character in a string', () => {
     expect(returned).toEqual('aaaa');
   });
   it('repeats characters 2 times', () => {
-    const returned = repeatCharacters('Hi', 3);
+    const returned = repeatCharacters('Hi', 2);
     expect(returned).toEqual('HHii');
   });
   it('repeats characters 3 times', () => {
