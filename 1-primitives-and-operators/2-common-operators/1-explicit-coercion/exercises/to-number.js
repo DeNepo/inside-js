@@ -4,22 +4,32 @@
 
 console.log('-- begin --');
 
-console.assert(Number(undefined) === __, 'Test 1');
+console.assert(isNaN(undefined), 'Test 1');
+console.log(isNaN(undefined), 'Test 1');
 
-console.assert(Number(null) === __, 'Test 2');
+console.assert(Number(null) === 0, 'Test 2');
+console.log(Number(null) === 0, 'Test 2');
 
-console.assert(Number('four') === __, 'Test 3');
+console.assert(isNaN('four'), 'Test 3');
+console.log(isNaN('four'), 'Test 3');
 
-console.assert(Number(true) === __, 'Test 4');
+console.assert(Number(true) === 1, 'Test 4');
+console.log(Number(true) === 1, 'Test 4');
 
-console.assert(Number(false) === __, 'Test 5');
+console.assert(Number(false) === 0, 'Test 5');
+console.log(Number(false) === 0, 'Test 5');
 
-console.assert(Number('-1') === __, 'Test 6');
+console.assert(Number('-1') === -1, 'Test 6');
+console.log(Number('-1') === -1, 'Test 6');
 
-console.assert(Number('0') === __, 'Test 7');
+console.assert(Number('0') === 0, 'Test 7');
+console.log(Number('0') === 0, 'Test 7');
 
-console.assert(Number('') === __, 'Test 8');
+console.assert(Number('') === 0, 'Test 8');
+console.log(Number('') === 0, 'Test 8');
 
-console.assert(Number(NaN) === __, 'Test 9');
+console.assert(isNaN(NaN), 'Test 9');
+console.log(isNaN(NaN), 'Test 9');
+
 
 console.log('-- end --');
