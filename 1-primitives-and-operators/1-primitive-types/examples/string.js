@@ -2,8 +2,6 @@
 
 'use strict';
 
-console.log('-- begin --');
-
 // strs are anything between quotations
 
 const str1 = '';
@@ -38,5 +36,3 @@ console.log(typeof cba, cba);
 // this is called "template literals"
 const allOfThem = `${str1}, ${str2}, ${str3}, ${str4}, ${str5}`;
 console.log(typeof allOfThem, allOfThem);
-
-console.log('-- end --');

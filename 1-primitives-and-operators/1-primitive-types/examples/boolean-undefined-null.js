@@ -2,8 +2,6 @@
 
 'use strict';
 
-console.log('-- begin --');
-
 // the final 3 types are much simpler than Strings and Numbers
 
 // there are only 2 "boolean" values in JavaScript
@@ -21,5 +19,3 @@ console.log(typeof undefinedUndefined, undefinedUndefined);
 //  null's type is unexpectedly 'object'
 const objectNull = null;
 console.log(typeof objectNull, objectNull);
-
-console.log('-- end --');
