@@ -19,7 +19,7 @@ describe('repeatString: repeats a string a specific number of times', () => {
     expect(returned).toEqual('aaaa');
   });
   it('repeats a string 2 times', () => {
-    const returned = repeatString('Hi', 3);
+    const returned = repeatString('Hi', 2);
     expect(returned).toEqual('HiHi');
   });
   it('repeats a string 3 times', () => {
