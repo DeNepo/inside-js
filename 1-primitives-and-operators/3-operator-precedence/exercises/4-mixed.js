@@ -16,16 +16,18 @@ const z = -4;
 // ---
 
 const a = typeof typeof x === typeof w;
-console.assert(a === __, 'a');
+console.assert(a === true, 'a');
 
 const b = w.length >= y + 1;
-console.assert(b === __, 'b');
+console.assert(b === true, 'b');
 
 const c = y + z === w[4];
-console.assert(c === __, 'c');
+console.assert(c === false, 'c');
 
 const d = y + z || x;
-console.assert(d === __, 'd');
+console.assert(d === true, 'd');
 
+
+console.log(w.slice(1, 5).length === y)
 const e = x === (w.slice(1, 5).length === y);
-console.assert(e === __, 'e');
+console.assert(e === true, 'e');

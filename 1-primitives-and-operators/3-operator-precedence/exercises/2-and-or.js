@@ -13,50 +13,50 @@
 // --- booleans ---
 
 const a = true || (false && true);
-console.assert(a === __, 'a');
+console.assert(a === true, 'a');
 
 const b = (true || false) && true;
-console.assert(b === __, 'b');
+console.assert(b === true, 'b');
 
 const c = true && (false || false) && true;
-console.assert(c === __, 'c');
+console.assert(c === false, 'c');
 
 const d = true || (false && false) || true;
-console.assert(d === __, 'd');
+console.assert(d === true, 'd');
 
 const e = (true || false) && (false || true);
-console.assert(e === __, 'e');
+console.assert(e === true, 'e');
 
 // --- numbers ---
 
 const f = 1 || (0 && 2);
-console.assert(f === __, 'f');
+console.assert(f === 1, 'f');
 
 const g = (1 || 0) && 2;
-console.assert(g === __, 'g');
+console.assert(g === 2, 'g');
 
 const h = 1 && (0 || 0) && 2;
-console.assert(h === __, 'h');
+console.assert(h === 0, 'h');
 
 const i = 1 || (0 && 0) || 2;
-console.assert(i === __, 'i');
+console.assert(i === 1, 'i');
 
 const j = (1 || 0) && (0 || 2);
-console.assert(j === __, 'j');
+console.assert(j === 2, 'j');
 
 // --- strings ---
 
 const k = 'hi' || ('' && 'bye');
-console.assert(k === __, 'k');
+console.assert(k === 'hi', 'k');
 
 const l = ('hi' || '') && 'bye';
-console.assert(l === __, 'l');
+console.assert(l === 'bye', 'l');
 
 const m = 'hi' && ('' || '') && 'bye';
-console.assert(m === __, 'm');
+console.assert(m === '', 'm');
 
 const n = 'hi' || ('' && '') || 'bye';
-console.assert(n === __, 'n');
+console.assert(n === 'hi', 'n');
 
 const o = ('hi' || '') && ('' || 'bye');
-console.assert(o === __, 'o');
+console.assert(o === 'bye', 'o');

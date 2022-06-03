@@ -26,8 +26,8 @@ console.log('-- begin --');
 */
 
 // try different values to see what happens
-let a = _;
-let b = _;
+let a = '123';
+let b = '456';
 
 const realPlus = a + b;
 
@@ -44,6 +44,10 @@ if (typeof a === 'string' || typeof b === 'string') {
 }
 
 console.assert(
+  Object.is(realPlus, fakePlus),
+  'fakePlus and realPlus will always be the same',
+);
+console.log(
   Object.is(realPlus, fakePlus),
   'fakePlus and realPlus will always be the same',
 );

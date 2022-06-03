@@ -7,6 +7,7 @@ console.log('-- begin --');
 let x = 0;
 
 let y = x--;
+console.log(x)
 console.assert(x === -1, 'Test 1 x');
 console.assert(y === 0, 'Test 1 y');
 
