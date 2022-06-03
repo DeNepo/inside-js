@@ -341,7 +341,7 @@ your study time and to measure your progress:
   - [ ] 🐣 **Dots vs. Brackets**: You can explain the difference between _dot_
         and _bracket_ access in an object and can decide which one is best in
         your code.
-  - [ ] 🐣 **For-In Loops**: You can use `for-in` loops to iterate over entries
-        in an object.
+  - [ ] 🐣 **Reference vs. Values**: You can show that objects are stored by
+        reference with an example that modifies one object from two variables.
 
 [TOP](#inside-js)
