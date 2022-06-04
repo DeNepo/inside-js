@@ -25,11 +25,11 @@ const message = ' days remaining until ' + holiday;
   this stepper is used to count down the days to a holiday
 */
 let daysRemaining = 14;
-while (_) {
+while (daysRemaining) {
   const tweet = daysRemaining + message;
   console.log(tweet);
 
-  daysRemaining = _;
+  daysRemaining -=1;
 }
 
 const finalTweet = 'today is ' + holiday + '!';

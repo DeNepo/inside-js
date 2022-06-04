@@ -21,13 +21,13 @@ console.log('-- begin --');
 
 */
 
-const toRepeat = '_';
+const toRepeat = 'howdy';
 const totalRepetitions = 4;
 
 let repeatedString = '';
 
-for (_; i < _; _) {
-  repeatedString += _;
+for (let i = 0; i < totalRepetitions; i++) {
+  repeatedString += toRepeat;
   console.log(repeatedString);
 }
 

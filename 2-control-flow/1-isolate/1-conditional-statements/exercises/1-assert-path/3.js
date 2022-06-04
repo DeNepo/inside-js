@@ -18,6 +18,6 @@ if (value1 === value2) {
   path = 'else if 2';
 }
 
-console.assert(path === _);
+console.assert(path === 'else if 1');
 
 console.log('-- end --');

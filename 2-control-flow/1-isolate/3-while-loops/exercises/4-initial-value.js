@@ -19,7 +19,7 @@ console.log('-- begin --');
   how many can you find?
   what do all the correct answers have in common?
 */
-let sum = _;
+let sum = 128;
 
 while (sum < 100) {
   if (sum % 2 === 0) {

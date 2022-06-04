@@ -4,7 +4,7 @@
 
 // fill in the blank to pass the assertion
 
-const interactionValue = _('asdf');
+const interactionValue = alert('asdf');
 
 console.log(typeof interactionValue, interactionValue);
 

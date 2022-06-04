@@ -27,13 +27,11 @@ let repeatedString = '';
   used to count the number of times the string has been repeated
 */
 let currentRepetitions = 0;
-while (_) {
-  repeatedString = _;
-  console.log(repeatedString);
-
-  _; // currentRepetitions should grow by 1
+while (currentRepetitions  < totalRepetitions) {
+  repeatedString += toRepeat;
+  currentRepetitions++;; // currentRepetitions should grow by 1
 }
-
+console.log(repeatedString);
 console.assert(
   repeatedString === 'howdyhowdyhowdyhowdy',
   '"howdy" should be repeated 4 times',

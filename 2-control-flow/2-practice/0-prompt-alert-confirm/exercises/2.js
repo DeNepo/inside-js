@@ -4,7 +4,7 @@
 
 // fill in the blank to pass the assertion
 
-const inputValue = _('asdf');
+const inputValue = String('asdf');
 
 console.log(typeof inputValue, inputValue);
 

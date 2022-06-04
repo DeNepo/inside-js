@@ -15,8 +15,9 @@ console.log('originalString:', originalString);
 
 let reverseUpperCase = '';
 
-for (_; _; _) {
-  // a blank canvas :)
+for (let i = 0; i < originalString.length; i++) {
+  let nextChar = originalString[i].toUpperCase();
+  reverseUpperCase = nextChar + reverseUpperCase;
 }
 
 console.assert(

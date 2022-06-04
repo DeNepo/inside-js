@@ -20,6 +20,6 @@ if (value1 && !value2) {
   path = 'else';
 }
 
-console.assert(path === _);
+console.assert(path === 'else');
 
 console.log('-- end --');
