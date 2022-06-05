@@ -40,6 +40,20 @@ if (randomFrom1To3 === 1) {
   correctAnswer = input3;
 }
 
+
+const guessMessage = randomFrom1To3;
+const userGuess = prompt(guessMessage);
+console.log('userGuess:', typeof userGuess, userGuess);
+
+const guessIsCorrect = guessMessage;
+console.log('guessMessage:', typeof guessMessage, guessMessage);
+
+if (guessIsCorrect) {
+  alert('correct! phrase ' + randomFrom1To3 + ' was "' + phraseToGuess + '"');
+} else {
+  alert('nope :(');
+}
+
 /* -- BEGIN: check if the user was correct and let them know -- */
 
 /* -- END: check if the user was correct and let them know -- */

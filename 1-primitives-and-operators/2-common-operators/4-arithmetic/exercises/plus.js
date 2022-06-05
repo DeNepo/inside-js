@@ -19,9 +19,9 @@ const _1_expect = '11'; // '1' + '1'
 const _1_native = '1' + 1;
 console.assert(Object.is(_1_expect, _1_native), 'Test 1');
 
-/*const _2_expect = '0null' // 0 + 0
+const _2_expect = 0; // 0 + 0
 const _2_native = 0 + null;
-console.assert(Object.is(_2_expect, _2_native), 'Test 2');*/
+console.assert(Object.is(_2_expect, _2_native), 'Test 2');
 
 const _3_expect = 0; // __
 const _3_native = false + null;
@@ -48,8 +48,8 @@ const _8_native = 'hello' + 'goodbye';
 console.assert(Object.is(_8_expect, _8_native), 'Test 8');
 
 
-/*const _9_expect = undefined; // __
+const _9_expect = 'undefined'; // __
 const _9_native = undefined + '';
-console.assert(Object.is(_9_expect, _9_native), 'Test 9');*/
+console.assert(Object.is(_9_expect, _9_native), 'Test 9');
 
 console.log('-- end --');

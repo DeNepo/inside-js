@@ -35,7 +35,7 @@ alert('all saved! get ready to remember');
 
 // generate a random number: 1, 2 or 3
 const randomDecimal = Math.random();
-const decimalTimes3 = randomDecimal * _;
+const decimalTimes3 = randomDecimal * 3;
 const randomFrom1To3 = Math.ceil(decimalTimes3);
 
 console.log('randomFrom1To3:', typeof randomFrom1To3, randomFrom1To3);
@@ -44,11 +44,11 @@ console.log('randomFrom1To3:', typeof randomFrom1To3, randomFrom1To3);
 // this variable will be used later for comparing
 let phraseToGuess = '';
 if (randomFrom1To3 === 3) {
-  _;
+  phraseToGuess = input3;
 } else if (randomFrom1To3 === 2) {
-  _;
+  phraseToGuess = input2;
 } else if (randomFrom1To3 === 1) {
-  _;
+  phraseToGuess = input1;
 } else {
   console.log('unreachable!');
   console.log('the number will always be 1, 2 or 3');
@@ -59,7 +59,7 @@ const userGuess = prompt(guessMessage);
 console.log('userGuess:', typeof userGuess, userGuess);
 
 // does the user's guess exactly match the random phrase?
-const guessIsCorrect = _;
+const guessIsCorrect = guessMessage;
 console.log('guessMessage:', typeof guessMessage, guessMessage);
 
 if (guessIsCorrect) {
