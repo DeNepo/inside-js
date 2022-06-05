@@ -29,6 +29,7 @@ let paddedString = 'hi';
 let isLongEnough = false;
 while (isLongEnough) {
   paddedString += padding;
+  padding++;
   console.log(paddedString);
   if (longEnough > 12) {
     paddedString += padding;

@@ -9,10 +9,18 @@ const deepCompare = (actual, expect) => actual === expect || Object.is(actual, e
  * @param {number[]} [arr=[]] - __
  * @returns {number[]} __
  */
-const copyArray = () => {};
+const copyArray = (array) => {
+  const newArray = [];
+  for (const item of array) {
+    newArray.push(item);
+   
+  }
+   return newArray;
+};
 
 const arr1 = [1, 2, 3];
 const arr2 = copyArray(arr1);
+console.log(arr2)
 console.assert(arr1 !== arr2, '1');
 console.assert(deepCompare(arr2, [1, 2, 3]), '2: with the same values');
 console.assert(deepCompare(arr1, [1, 2, 3]), '3: arr1 was not modified');

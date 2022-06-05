@@ -8,9 +8,23 @@ const deepCompare = (actual, expect) => actual === expect || Object.is(actual, e
 // -- declare variables (this is correct) --
 const arr1 = [1, 2, 'b', 4];
 const arr2 = [3, 'a', 'c'];
-let temp;
+let temp = arr1[2];
 
+console.log(temp)
 // -- swap values (write this code) --
+
+arr1[2] = arr2[0]
+console.log(arr1)
+
+arr2[0] = temp;
+console.log(arr2)
+
+temp = arr2[1]
+console.log(temp)
+arr2[1] = arr2[0]
+console.log(arr2)
+arr2[0] = temp
+console.log(arr2)
 
 // -- assert values (this is correct) --
 console.assert(deepCompare(arr1, [1, 2, 3, 4]), 'array 1');
