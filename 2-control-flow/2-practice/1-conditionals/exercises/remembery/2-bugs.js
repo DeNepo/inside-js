@@ -34,15 +34,24 @@ while (input3 === '' || input3 === null) {
 
 alert('all saved! get ready to remember');
 
-const randomFrom1To3 = Math.ceil(Math.random() * 3);
+// generate a random number: 1, 2 or 3
+const randomDecimal = Math.random();
+const decimalTimes3 = randomDecimal * 3;
+const randomFrom1To3 = Math.ceil(decimalTimes3);
 
+console.log('randomFrom1To3:', typeof randomFrom1To3, randomFrom1To3);
+// assign the randomly selected input to a new variable
+// this variable will be used later for comparing
 let phraseToGuess = '';
-if (Math.ceil(Math.random() * 3) === 1) {
-  phraseToGuess = input1;
-} else if (Math.ceil(Math.random() * 3) === 2) {
-  phraseToGuess = input2
-} else if (Math.ceil(Math.random() * 3) === 3) {
+if (randomFrom1To3 === 3) {
   phraseToGuess = input3;
+} else if (randomFrom1To3 === 2) {
+  phraseToGuess = input2;
+} else if (randomFrom1To3 === 1) {
+  phraseToGuess = input1;
+} else {
+  console.log('unreachable!');
+  console.log('the number will always be 1, 2 or 3');
 }
 
 const guessMessage = '_ ' + randomFrom1To3;
@@ -57,4 +66,5 @@ if (guessIsCorrect) {
   alert('correct! phrase ' + randomFrom1To3 + ' was "' + phraseToGuess + '"');
 } else {
   alert('nope :(');
-}
+};
+
