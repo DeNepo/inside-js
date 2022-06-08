@@ -8,10 +8,10 @@
  * @returns {Array} A new array with the reversed entries of `arr`.
  */
 const reverseArray = (arr = []) => {
-  // sorting the array in place
-  // assigning the same array to a new variable
-  const backwards = arr.reverse();
-  // returning a reference to the same array!
+  const backwards = [];
+  for (const item of arr) {
+    backwards.unshift(item);
+  }
   return backwards;
 };
 

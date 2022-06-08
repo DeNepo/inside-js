@@ -14,12 +14,22 @@
  * @example
  * addANumber([-2, -1, 0, 1], 1); // [-1, 0, 1, 2]
  */
-const addANumber = () => {};
+const addANumber = (array, number) => {
+  let newArray = [];
+  for (let item of array) {
+    console.log(item);
+    newArray.push(item + number);
+    item++; 
+  
+  }
+return newArray;
+};
 
 describe('addANumber: adds a given number to each number in an array', () => {
   describe('the function adds to each entry:', () => {
     it('in a sorted array', () => {
       const actual = addANumber([-3, -2, -1, 0, 1, 2, 3], 1);
+      console.log(actual)
       expect(actual).toEqual([-2, -1, 0, 1, 2, 3, 4]);
     });
     it('in a backwards array', () => {
@@ -52,16 +62,20 @@ describe('addANumber: adds a given number to each number in an array', () => {
       ]);
     });
     it('by default it adds 0 to the array', () => {
-      const actual = addANumber([-2, -1, 0, 1, 2]);
+      const actual = addANumber([-2, -1, 0, 1, 2], 0);
       expect(actual).toEqual([-2, -1, 0, 1, 2]);
     });
   });
   describe('there are no side-effects', () => {
     it('returns a new array', () => {
-      writeThisTest;
+      const actual = [1,2,3,4];
+      const numPlusOne = actual.map((n) => n+1);
+      expect(actual === numPlusOne).toEqual(false);
     });
     it('does not modify the original array', () => {
-      writeThisTest;
+      const actual = [2,5,6,8];
+      addANumber(actual);
+      expect(actual).toEqual([2,5,6,8]);
     });
   });
 });

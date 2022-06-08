@@ -17,8 +17,9 @@ console.log('lowerCaseString:', lowerCaseString);
 
 let upperCaseString = '';
 
-for (let i = 0; i>=0; i++) {
+for (let i = 0; i<lowerCaseString.length; i++) {
   let nextLetter = lowerCaseString[i];
+  console.log(nextLetter)
   const letterUpperCased = nextLetter.toUpperCase();
   upperCaseString += letterUpperCased;
 
