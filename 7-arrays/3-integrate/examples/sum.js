@@ -5,7 +5,7 @@ import { addNumbers } from './utils/add-numbers.js';
 alert(
   `enter as many numbers as you want.
 
-When you're done entering numbers enter "done"
+When you're done entering numbers click cancel
 -> your numbers will be added together`,
 );
 
