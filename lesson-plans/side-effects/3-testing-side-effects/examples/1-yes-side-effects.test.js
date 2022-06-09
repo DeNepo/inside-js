@@ -2,7 +2,7 @@
 
 /**
  * Creates a new array with entries reversed.
- *  Does not modify the original array.
+ *  Modifies the original array.
  *
  * @param {Array} [arr=[]] - The array to reverse.
  * @returns {Array} A new array with the reversed entries of `arr`.
