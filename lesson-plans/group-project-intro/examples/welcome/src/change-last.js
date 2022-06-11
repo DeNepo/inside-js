@@ -26,4 +26,4 @@ const changeLast = () => {
 };
 
 // tell the browser to call your function each time the user interacts
-document.getElementById('last-name').addEventListener('keyup', changeLast);
+document.getElementById('last-name').addEventListener('input', changeLast);
