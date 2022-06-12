@@ -14,15 +14,15 @@
  * @example
  * findBigNumbers([-2, -1, 0, 1, 2], 0); // [0, 1, 2]
  */
-const findBigNumbers = (array, big) => {
-  const bigNumber = []
-  for (let i of array) {
-    console.log(i)
-    if (array[i] >= big) {
-       bigNumber.push(i) 
-    }  
-    return bigNumber; 
+  const findBigNumbers = (numbers,big=0) => {
+  const newarray=[]
+  for(const number of numbers){
+    if(number>=big){
+    newarray.push(number)
+    }
   }
+  return newarray
+
 };
 
 describe('findBigNumbers: finds all the big numbers in an array', () => {
@@ -61,10 +61,13 @@ describe('findBigNumbers: finds all the big numbers in an array', () => {
   });
   describe('there are no side-effects', () => {
     it('returns a new array', () => {
-      writeThisTest;
+      const actual = findBigNumbers([-1, -0.5, 0, 0.5, 1]);
+      const array1 = findBigNumbers(actual);
+      expect(actual).toEqual(array1);
     });
     it('does not modify the original array', () => {
-      writeThisTest;
+      const actual1 = findBigNumbers([-1, -0.5, 0, 0.5, 1]);
+      expect(actual1).toEqual([0, 0.5, 1]);
     });
   });
 });
