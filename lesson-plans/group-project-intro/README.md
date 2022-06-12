@@ -2,7 +2,7 @@
 
 In this class you'll study the starter repository for the
 [Numbers Group Project](https://github.com/HackYourFutureBelgium/numbers-group-project),
-form small groups (3-4) and prepare for the week's deliverable.
+form small groups (3-4) and prepare for the week's deliverable..
 
 ---
 
