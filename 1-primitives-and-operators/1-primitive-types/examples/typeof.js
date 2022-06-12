@@ -2,8 +2,6 @@
 
 'use strict';
 
-console.log('-- begin --');
-
 // there are 5 main primitive types in JavaScript
 // the typeof operator will tell you what type a value is
 
@@ -44,5 +42,3 @@ console.log(typeof typeofTypeofUndefined, typeofTypeofUndefined);
 
 const typeofTypeofNull = typeof typeof null;
 console.log(typeof typeofTypeofNull, typeofTypeofNull);
-
-console.log('-- end --');

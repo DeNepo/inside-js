@@ -97,6 +97,59 @@ Helpful resources for this module
   - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
   - [w3schools](https://www.w3schools.com/jsref/jsref_forin.asp)
 
+### ECMAScript Modules (ES Modules)
+
+> `import`/`export`
+
+- [javascript.info](https://javascript.info/modules-intro)
+- [Web Dev Simplified](https://www.youtube.com/watch?v=cRHQNNcYf6s)
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
+- [JavaScript Tutorial](https://www.javascripttutorial.net/es6/es6-modules/)
+
+## About Testing
+
+- [FunFunFunction](https://www.youtube.com/watch?v=Eu35xM76kKY&list=PL0zVEGEvSaeF_zoW9o66wa_UCNE3a7BEr):
+  1. [Writing tests for personal projects](https://www.youtube.com/watch?v=ib2Pt9_zciA)
+  2. [Why Unit Tests?](https://www.youtube.com/watch?v=Eu35xM76kKY)
+  3. [Your First Tests](https://www.youtube.com/watch?v=XsFQEUP1MxI)
+- [the basics](https://javascript.plainenglish.io/javascript-unit-test-best-practices-basics-d411dc1968c)
+- [js-unit-testing-guide](https://github.com/mawrkus/js-unit-testing-guide)
+  (very detailed)
+  - [Name your tests properly](https://github.com/mawrkus/js-unit-testing-guide#name-your-tests-properly)
+- [good test descriptions](https://softwareengineering.stackexchange.com/questions/362515/how-to-write-good-javascript-unit-test-descriptions)
+- [test behavior, not implementation](https://javascript.plainenglish.io/javascript-unit-test-best-practices-testing-behavior-4d1fd46ae03d)
+
+## Higher-Order Functions
+
+- [FunFunFunction](https://medium.com/humans-create-software/a-dirt-simple-introduction-to-higher-order-functions-in-javascript-b33bf9e19056)
+- [The Coding Train](https://www.youtube.com/watch?v=H4awPsyugS0)
+- [Traversy](https://www.youtube.com/watch?v=rRgD1yVwIvE)
+- [damcosset](https://dev.to/damcosset/higher-order-functions-in-javascript-4j8b)
+- [bitsrc](https://blog.bitsrc.io/understanding-higher-order-functions-in-javascript-75461803bad)
+- [Mosh](https://programmingwithmosh.com/javascript/what-are-higher-order-functions-in-javascript/)
+
+## MDN Documentation
+
+- [FreeCodeCamp: the lingo](https://www.youtube.com/watch?v=NFaZKFTycmc)
+- [Zach Gollwitzer](https://www.youtube.com/watch?v=O3iR-CIufKM)
+- [DevSprout](https://www.youtube.com/watch?v=FSe_phZ2wmg)
+- [CodeAcademy](https://www.youtube.com/watch?v=s1PLS3SQHQ0) (MDN starts at
+  9:00)
+
+### Array Methods
+
+- [doesitmutate.xyz](https://doesitmutate.xyz)
+- [javascript.info](https://javascript.info/array-methods)
+- FunFun:
+  [Map](https://www.youtube.com/watch?v=bCqtb-Z5YGQ&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84&index=2),
+  [Reduce Basics](https://www.youtube.com/watch?v=Wl98eZpkp-c&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84&index=3)
+- [CYF](https://codeyourfuture.github.io/syllabus-london/js-core-3/array-methods.html)
+- [Una Kravets](https://css-tricks.com/an-illustrated-and-musical-guide-to-map-reduce-and-filter-array-methods/)
+- [Cheat Sheet](https://jrsinclair.com/javascript-array-methods-cheat-sheet)
+- Oliverjam: [learn-map-filter](https://github.com/oliverjam/learn-map-filter),
+  [tdd-array-methods](https://github.com/oliverjam/tdd-array-methods)
+- [Reduce](https://github.com/remarcmij/arr-reduce)
+
 ## More Examples and Exercises
 
 - [CodeAcademy Projects JavaScript](https://github.com/brezich/Codecademy-Projects-JavaScript)

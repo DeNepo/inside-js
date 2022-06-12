@@ -322,11 +322,11 @@ your study time and to measure your progress:
     - [ ] 🐥 `[].reduce`
   - [ ] 🐣 **Higher-Order Functions**: You can explain what a higher order
         function is using a simple example.
-  - [ ] 🐣 **Implicit Returns**: You understand when a function can be written
+  - [ ] 🐥 **Implicit Returns**: You understand when a function can be written
         with an implicit return and can decide if it makes your code more or
         less readable.
 
-### [9. Objects](./9-objects)
+### [9. Multiple Interactions](./9-multiple-interactions)
 
 - **Skills**:
   - [ ] 🥚 **Avoiding Side Effects**: You can read, debug and write functions
@@ -341,6 +341,7 @@ your study time and to measure your progress:
   - [ ] 🐣 **Dots vs. Brackets**: You can explain the difference between _dot_
         and _bracket_ access in an object and can decide which one is best in
         your code.
-  - [ ] 🐣 **For-In Loops**:
+  - [ ] 🐣 **Reference vs. Values**: You can show that objects are stored by
+        reference with an example that modifies one object from two variables.
 
 [TOP](#inside-js)

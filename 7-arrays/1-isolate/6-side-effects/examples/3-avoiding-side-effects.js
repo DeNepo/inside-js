@@ -1,8 +1,4 @@
-// #todo
-
 'use strict';
-
-console.log('-- begin --');
 
 // to avoid side effects:
 //  1. create a new array
@@ -36,5 +32,3 @@ console.assert(furniture[3] === undefined, 'Test 3 b');
 // we chose a loop to show the idea of creating and filling a new array
 //  https://www.samanthaming.com/tidbits/35-es6-way-to-clone-an-array/
 //  https://futurestud.io/tutorials/clone-copy-an-array-in-javascript-and-node-js
-
-console.log('-- end --');

@@ -18,6 +18,7 @@ const reverseArray = (array) => {
    return newArray.reverse();
 };
 
+<<<<<<< HEAD
 const arr1 = [1, 2, 3];
 const arr2 = reverseArray(arr1);
 console.assert(arr1 !== arr2, '1: returns a new array');
@@ -31,3 +32,25 @@ console.assert(arr3 !== arr4, '4: returns a new array');
 console.assert(deepCompare(arr4, [13, 12, 11, 10]), '5: reverses the entries');
 console.log(deepCompare(arr4, [13, 12, 11, 10]), '5: reverses the entries');
 console.assert(deepCompare(arr3, [10, 11, 12, 13]), '6: arr3 was not modified');
+=======
+const _1_arg = [1, 2, 3];
+const _1_returned = reverseArray(_1_arg);
+console.assert(_1_arg !== _1_returned, '1.a: returns a new array');
+console.assert(
+  deepCompare(_1_returned, [3, 2, 1]),
+  '1.b: reverses the entries',
+);
+console.assert(deepCompare(_1_arg, [1, 2, 3]), '1.c: _1_arg was not modified');
+
+const _2_arg = [10, 11, 12, 13];
+const _2_returned = reverseArray(_2_arg);
+console.assert(_2_arg !== _2_returned, '2.a: returns a new array');
+console.assert(
+  deepCompare(_2_returned, [13, 12, 11, 10]),
+  '2.b: reverses the entries',
+);
+console.assert(
+  deepCompare(_2_arg, [10, 11, 12, 13]),
+  '2.c: _2_arg was not modified',
+);
+>>>>>>> a0f616a451783d310b82f1dbe85ea73ccf3216cd

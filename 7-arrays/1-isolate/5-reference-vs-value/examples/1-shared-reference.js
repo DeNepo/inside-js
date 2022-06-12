@@ -1,8 +1,4 @@
-// #todo
-
 'use strict';
-
-console.log('-- begin --');
 
 // primitives are stored "by value", connected to 1 variable
 //  assigning a primitive to a other variable makes a copy of it
@@ -33,5 +29,3 @@ array1 = null;
 array2 = null;
 console.log('array1:', typeof array1, array1);
 console.log('array2:', typeof array2, array2);
-
-console.log('-- end --');

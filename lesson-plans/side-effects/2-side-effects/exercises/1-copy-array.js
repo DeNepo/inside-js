@@ -18,15 +18,32 @@ const copyArray = (array) => {
    return newArray;
 };
 
+<<<<<<< HEAD
 const arr1 = [1, 2, 3];
 const arr2 = copyArray(arr1);
 console.log(arr2)
 console.assert(arr1 !== arr2, '1');
 console.assert(deepCompare(arr2, [1, 2, 3]), '2: with the same values');
 console.assert(deepCompare(arr1, [1, 2, 3]), '3: arr1 was not modified');
+=======
+const _1_arg = [1, 2, 3];
+const _1_returned = copyArray(_1_arg);
+console.assert(_1_arg !== _1_returned, '1.a: it returns a new array');
+console.assert(
+  deepCompare(_1_returned, [1, 2, 3]),
+  '1.b: with the same values',
+);
+console.assert(deepCompare(_1_arg, [1, 2, 3]), '2.c: _1_arg was not modified');
+>>>>>>> a0f616a451783d310b82f1dbe85ea73ccf3216cd
 
-const arr3 = [10, 11, 12, 13];
-const arr4 = copyArray(arr3);
-console.assert(arr3 !== arr4, '4: returns a new array');
-console.assert(deepCompare(arr4, [10, 11, 12, 13]), '5: with the same values');
-console.assert(deepCompare(arr3, [10, 11, 12, 13]), '6: arr3 was not modified');
+const _2_arg = [10, 11, 12, 13];
+const _2_returned = copyArray(_2_arg);
+console.assert(_2_arg !== _2_returned, '2.a: returns a new array');
+console.assert(
+  deepCompare(_2_returned, [10, 11, 12, 13]),
+  '2.b: with the same values',
+);
+console.assert(
+  deepCompare(_2_arg, [10, 11, 12, 13]),
+  '2.c: _2_arg was not modified',
+);

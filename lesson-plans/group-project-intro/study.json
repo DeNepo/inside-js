@@ -1,0 +1,15 @@
+{
+  "--defaults": {
+    ".md": "study"
+  },
+  "study": {
+    "type": "module",
+    "environment": true,
+    "flowchart": false,
+    "variables": false,
+    "blanks": false,
+    "trace": false,
+    "ask": false,
+    "eslint": false
+  }
+}
