@@ -26,12 +26,12 @@ let repeatedString = '';
 /* declare and assign stepper variable
   used to count the number of times the string has been repeated
 */
-let currentRepetitions = 0;
+let i = 0;
 while (_) {
   repeatedString = _;
   console.log(repeatedString);
 
-  _; // currentRepetitions should grow by 1
+  _; // i should grow by 1
 }
 
 console.assert(

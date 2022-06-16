@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf8" />
+
+    <title>remove something</title>
+
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <section>
+      your text: <input id="user-text" type="text" />
+
+      <br />
+
+      <button id="vowels">remove vowels</button>
+      <br />
+      <button id="consonants">remove consonants</button>
+      <br />
+      <button id="these">remove these:</button>
+      <input id="to-remove" type="text" />
+
+      <hr />
+
+      <!-- your output -->
+      your output:
+      <pre id="removified"></pre>
+
+      <hr />
+
+      <!-- expected output -->
+      demo output:
+      <pre id="secret-solution"></pre>
+    </section>
+
+    <script src="./src/remove-vowels.js" type="module"></script>
+    <script src="./src/remove-consonants.js" type="module"></script>
+    <script src="./src/remove-these.js" type="module"></script>
+
+    <script src="./demo.re.js" type="module"></script>
+  </body>
+</html>

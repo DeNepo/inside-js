@@ -1,0 +1,22 @@
+.full {
+  height: 100vh;
+  width: 100vw;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.palindrome {
+  background: green;
+  color: black;
+}
+
+.not-palindrome {
+  background: black;
+  color: white;
+}

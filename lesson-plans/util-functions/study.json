@@ -1,0 +1,13 @@
+{
+  "study": {
+    "type": "module",
+    "environment": true,
+    "ask": false,
+    "trace": false,
+    "variables": false,
+    "blanks": false,
+    "eslint": false,
+    "flowchart": false,
+    "tests": [".spec.js"]
+  }
+}
