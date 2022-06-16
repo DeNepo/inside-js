@@ -38,10 +38,12 @@ Helpful resources for this module
 
 ## Tutorials
 
+- [3dCodeWorld](https://3dcodeworld.teachable.com/),
+  [youtube channel](https://www.youtube.com/c/3dCodeWorld) - !!! very visual !!!
+- [Just JavaScript](http://justjavascript.com/) - !!! very visual !!!
 - [watchAndCode Programming Foundations](https://watchandcode.com/) - sign up
   for the free Programming Foundations course, it's awesome. You can stop when
   he starts explaining `this`.
-- [Just JavaScript](http://justjavascript.com/)
 - [sololearn](https://www.sololearn.com/learning/1024)
 - [javascript.express](https://www.javascript.express/)
 - [launchcode](https://education.launchcode.org/intro-to-professional-web-dev/index.html)
@@ -57,6 +59,10 @@ Helpful resources for this module
 - [codeexpanse](https://www.youtube.com/watch?v=WVyCrI1cHi8)
 - [dev.to](https://dev.to/promhize/javascript-in-depth-all-you-need-to-know-about-expressions-statements-and-expression-statements-5k2)
 - [youtube](https://www.youtube.com/watch?v=WVyCrI1cHi8)
+
+## Functions
+
+- [3dCodeWorld](https://www.youtube.com/watch?v=Wxs-HOIH7-c)
 
 ## Reference vs. Values
 
