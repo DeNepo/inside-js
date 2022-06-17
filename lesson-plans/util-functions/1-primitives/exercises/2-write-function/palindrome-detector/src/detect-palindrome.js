@@ -1,5 +1,5 @@
-import { readString } from '../../../../../lib/dom-io.js';
-import { replaceClass } from '../../../../../lib/dom-classes.js';
+import { readString } from '../../../../../../../lib/dom-io.js';
+import { replaceClass } from '../../../../../../../lib/dom-classes.js';
 
 import { isPalindrome } from './utils/is-palindrome.js';
 
