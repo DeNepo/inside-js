@@ -1,8 +1,11 @@
 # DOM Classes
 
-There are 8 DOM class functions you can use to explore dynamic styling without getting tangled in full DOM manipulation. They are simple but just enough to build basic web pages.
+There are 8 DOM class functions you can use to explore dynamic styling without
+getting tangled in full DOM manipulation. They are simple but just enough to
+build basic web pages.
 
-These functions will throw many errors, that's a good thing! The errors are there to help catch your mistakes before they become frustrating mysteries.
+These functions will throw many errors, that's a good thing! The errors are
+there to help catch your mistakes before they become frustrating mysteries.
 
 The most common errors you will get are because:
 
@@ -13,7 +16,8 @@ The most common errors you will get are because:
 
 ### `addClass("id", "class-name")`
 
-Adds a class to the end of an element's `class="..."` attribute value. Does nothing if the class was already present.
+Adds a class to the end of an element's `class="..."` attribute value. Does
+nothing if the class was already present.
 
 ```js
 // before: <h1 id="main-title" class=""></h1>
@@ -23,11 +27,12 @@ addClass('main-title', 'enormous');
 
 ### `removeClass("id", "class-name")`
 
-Removes a class from an element's `class="..."` attribute value. Does nothing if the class does not exist on the element.
+Removes a class from an element's `class="..."` attribute value. Does nothing if
+the class does not exist on the element.
 
 ```js
 // before: <h1 id="main-title" class="enormous"></h1>
-addClass('main-title', 'enormous');
+removeClass('main-title', 'enormous');
 // after: <h1 id="main-title" class="enormous"></h1>
 ```
 
@@ -35,9 +40,11 @@ addClass('main-title', 'enormous');
 
 If the class is already on the element, it will be removed.
 
-If the class is _not_ on the element, it will be added at the end of the element's `class="..."` attribute.
+If the class is _not_ on the element, it will be added at the end of the
+element's `class="..."` attribute.
 
-Returns: `true` if the class was added to the element, `false` if it was removed.
+Returns: `true` if the class was added to the element, `false` if it was
+removed.
 
 ```js
 // before: <h1 id="main-title" class=""></h1>
@@ -55,7 +62,8 @@ console.log(secondToggle); // false
 
 ### `replaceClass("id", "old-class-name", "new-class-name")`
 
-Replaces the old class with a new class, does nothing if the old class did not exist. The new class will be in the same location as the old class.
+Replaces the old class with a new class, does nothing if the old class did not
+exist. The new class will be in the same location as the old class.
 
 Returns: `true` if the old class was replaced, `false` if it was not there.
 
@@ -77,7 +85,7 @@ Removes all classes from an element.
 
 ```js
 // before: <h1 id="main-title" class="enormous fancy impressive"></h1>
-addClass('main-title');
+clearClasses('main-title');
 // after: <h1 id="main-title" class=""></h1>
 ```
 
@@ -85,7 +93,8 @@ addClass('main-title');
 
 ### `hasClass("id", "class-name")`
 
-Checks if an element has a class. Returns: `true` if the class exists, `false` if it does not.
+Checks if an element has a class. Returns: `true` if the class exists, `false`
+if it does not.
 
 ```js
 // <h1 id="main-title" class="enormous"></h1>
