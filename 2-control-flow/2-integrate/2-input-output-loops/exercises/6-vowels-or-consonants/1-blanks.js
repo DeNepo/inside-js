@@ -27,7 +27,7 @@ while (!userConfirmed) {
 
   const confirmMessage =
     'do you want to filter this word?\n\n' + '- "' + userInput + '"';
-  userConfirmed = confirm(confirmMessage);
+  userConfirmed= confirm(confirmMessage);
 }
 
 const removeVowels = confirm(`what would you like to remove from "${userInput}"?
