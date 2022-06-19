@@ -1,6 +1,9 @@
 # Lesson Plans
 
-1. [Functions & Unit Testing](./functions-and-unit-testing?--defaults)
-2. [Side-Effects](./side-effects?--defaults)
-3. [Functional Array Methods](./functional-array-methods?--defaults)
-4. [Sabotage!](./sabotage?--defaults)
+- [For Loops](./for-loops?--defaults)
+- [Functions & Unit Testing](./functions-and-unit-testing?--defaults)
+- [Side-Effects](./side-effects?--defaults)
+- [Group Project Intro](./group-project-intro?--defaults)
+- [Util Functions](./util-functions?--defaults)
+- [Functional Array Methods](./functional-array-methods?--defaults)
+- [Sabotage!](./sabotage?--defaults)

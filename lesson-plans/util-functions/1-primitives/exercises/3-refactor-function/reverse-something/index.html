@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf8" />
+
+    <title>reverse something</title>
+
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <section>
+      your text: <input id="user-text" type="text" />
+      <br />
+      reverse:
+      <select id="reverse-type">
+        <option value="whole">whole text</option>
+        <option value="each">each word</option>
+      </select>
+      <input id="do-it" type="button" value="go!" />
+
+      <hr />
+
+      <!-- your output -->
+      your output:
+      <pre id="reversed-output"></pre>
+
+      <hr />
+
+      <!-- expected output -->
+      demo output:
+      <pre id="secret-solution"></pre>
+    </section>
+
+    <script src="./src/reverse-word-or-phrase.js" type="module"></script>
+
+    <script src="./demo.re.js" type="module"></script>
+  </body>
+</html>
