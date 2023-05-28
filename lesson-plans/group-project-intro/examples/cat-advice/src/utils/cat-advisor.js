@@ -6,7 +6,7 @@
  * @returns {boolean}
  */
 export const catAdvisor = (likesCats, isAllergic, ownsOne) => {
-  debugger
+  debugger;
   return likesCats && isAllergic && ownsOne
     ? 'replace your cat with a stuffed animal'
     : likesCats && isAllergic && !ownsOne
