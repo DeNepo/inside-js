@@ -1,4 +1,4 @@
-## Welcome to Operators!
+# Welcome to Operators
 
 Primitives, operators and _implicit coercion_ are among the most confusing
 features of JS. Implicit coercion can cause big problems in your programs if
