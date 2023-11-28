@@ -1,9 +1,25 @@
 # Group Project Intro
 
 In this class you'll study the starter repository for the
-[Numbers Group Project](https://github.com/HackYourFutureBelgium/numbers-group-project),
-form small groups (3-4) and prepare for the week's deliverable..
+[Numbers Group Project](https://github.com/DeNepo/numbers-group-project), form
+small groups (3-4) and prepare for the week's deliverable..
 
+<<<<<<< HEAD
+=======
+---
+
+## Prep Work
+
+- Come prepared to use object dot notation:
+  - Reading a key/value pair: `obj.key`
+  - Writing a key/value pair: `obj.key = __`
+- Practice opening and stepping through the examples in
+  `/10-multiple-interactions`. (any one will do, you can study the rest in
+  class)
+
+---
+
+>>>>>>> 5197131 (just-enough-dom refactor, moving away from dom-io library.  and more examples of multiple interactions)
 ## Learning Objectives
 
 ### In-Class Practice
@@ -47,13 +63,13 @@ To prepare for the group project you can:
   - Try making small changes and seeing what happens!
 
 - _All Together_: Read through the
-  [Numbers Group Project](https://github.com/HackYourFutureBelgium/numbers-group-project)
+  [Numbers Group Project](https://github.com/DeNepo/numbers-group-project)
   repository.
   - What code is already complete?
   - What code will you need to write over the week?
   - Demo how to run the scripts in `package.json`
 - _Small Groups_: Form random groups of 3-4 people and prepare for the week.
   - Set up a group repository from the
-    [project template](https://github.com/HackYourFutureBelgium/numbers-group-project)
+    [project template](https://github.com/DeNepo/numbers-group-project)
   - Practice running the `package.json` scripts on your local computers
   - Create a project board with one issue per user interaction

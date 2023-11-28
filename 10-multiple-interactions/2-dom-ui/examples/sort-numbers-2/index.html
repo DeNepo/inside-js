@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf8" />
+
+		<title>sort numbers 2</title>
+
+		<link href="./styles.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<section>
+			<input id="the-num" type="number" value="0" />
+
+			<button id="add-it" type="button">add number</button>
+			<button id="remove-it" type="button">remove number</button>
+
+			<br />
+
+			<code>sort the numbers:</code>
+			<select id="sort-type">
+				<option value="none">none</option>
+				<option value="up">up</option>
+				<option value="down">down</option>
+			</select>
+
+			<hr />
+
+			<pre id="all-numbers"></pre>
+		</section>
+
+		<script src="./src/add-number.js" type="module"></script>
+		<script src="./src/remove-number.js" type="module"></script>
+		<script src="./src/sort-numbers.js" type="module"></script>
+		<script src="./src/init.js" type="module"></script>
+	</body>
+</html>

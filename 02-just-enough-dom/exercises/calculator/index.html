@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Calculator</title>
+
+		<link href="./styles.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<div>
+			<input id="left" type="number" value="0" />
+			<br />
+			<input id="right" type="number" value="0" />
+			<br />
+			<button id="add">+</button>
+			<button id="subtract">-</button>
+			<button id="multiply">*</button>
+			<button id="divide">/</button>
+
+			<hr />
+
+			<p>your output:</p>
+			<pre id="display-actual"></pre>
+
+			<hr />
+
+			<p>expected output:</p>
+			<pre id="display-expected"></pre>
+		</div>
+
+		<script src="./script.js"></script>
+		<script src="./script.re.js" type="module"></script>
+	</body>
+</html>
