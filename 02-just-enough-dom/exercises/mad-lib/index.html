@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Mad Lib</title>
+
+		<link href="./styles.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<div>
+			<form id="suggestions">
+				<input id="noun" type="text" placeholder="plural noun" />
+
+				<br />
+
+				<input id="verb" type="text" placeholder="verb" />
+
+				<br />
+
+				<input id="adjective" type="text" placeholder="adjective" />
+			</form>
+
+			<hr />
+
+			<p>your output:</p>
+			<pre id="display-actual"></pre>
+
+			<hr />
+
+			<p>expected output:</p>
+			<pre id="display-expected"></pre>
+		</div>
+
+		<script src="./script.js"></script>
+		<script src="./script.re.js"></script>
+	</body>
+</html>
