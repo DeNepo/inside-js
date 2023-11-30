@@ -1,5 +1,5 @@
 {
-  "--defaults": {
-    ".md": "slides"
-  }
+	"--defaults": {
+		".md": "slides"
+	}
 }

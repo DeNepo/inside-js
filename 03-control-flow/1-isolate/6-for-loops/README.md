@@ -16,7 +16,7 @@ conventionally used?
 
 ```js
 for (initialization; condition; finalExpression) {
-  // ... loop body ...
+	// ... loop body ...
 }
 ```
 
@@ -37,15 +37,15 @@ The correct answer is `2`:
 
 ```js
 for (
-  // 2: declare and assign the `step` variable
-  let step = 0; // initialization
-  // 3, 6, 9, 12: check if `step` is less than 3
-  step < 3; // condition
-  // 5, 8, 11: add 1 to `step`
-  step++ // finalExpression
+	// 2: declare and assign the `step` variable
+	let step = 0; // initialization
+	// 3, 6, 9, 12: check if `step` is less than 3
+	step < 3; // condition
+	// 5, 8, 11: add 1 to `step`
+	step++ // finalExpression
 ) {
-  // 4, 7, 10: log the current value of `step`
-  console.log(step);
+	// 4, 7, 10: log the current value of `step`
+	console.log(step);
 }
 ```
 
@@ -74,14 +74,14 @@ let max = 3;
 let step = 0;
 // condition
 while (step < max) {
-  console.log(step);
-  // final expression
-  step = step + 1;
+	console.log(step);
+	// final expression
+	step = step + 1;
 }
 
 // initialization; condition; finalExpression
 for (let step = 0; step < max; step++) {
-  console.log(step);
+	console.log(step);
 }
 ```
 
@@ -91,7 +91,7 @@ _variables_ button):
 
 ```js
 for (let step = 0; step < 3; step++) {
-  console.log(step);
+	console.log(step);
 }
 
 step; // ReferenceError
@@ -122,13 +122,13 @@ let totalRepetitions = 4;
 let repeatedString = '';
 
 for (let i = 0; i < totalRepetitions; i++) {
-  repeatedString += toRepeat;
-  console.log('repeatedString:', repeatedString);
+	repeatedString += toRepeat;
+	console.log('repeatedString:', repeatedString);
 }
 
 console.assert(
-  repeatedString === 'howdyhowdyhowdyhowdy',
-  '"howdy" should be repeated 4 times',
+	repeatedString === 'howdyhowdyhowdyhowdy',
+	'"howdy" should be repeated 4 times',
 );
 ```
 
@@ -149,14 +149,14 @@ let reversedString = '';
 console.log('reversedString:', reversedString);
 
 for (_; _; _) {
-  let nextLetter = _;
-  reversedString = _ + _;
-  console.log('reversedString:', reversedString);
+	let nextLetter = _;
+	reversedString = _ + _;
+	console.log('reversedString:', reversedString);
 }
 
 console.assert(
-  reversedString === 'mlkj',
-  'reversed string is the original reversed',
+	reversedString === 'mlkj',
+	'reversed string is the original reversed',
 );
 ```
 

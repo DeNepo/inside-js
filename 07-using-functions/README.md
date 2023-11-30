@@ -75,11 +75,11 @@ use functions (remember zooming in and zooming out?):
  * @returns {string} the reversed text
  */
 const reverseString = (text = '') => {
-  let backwards = '';
-  for (const character of text) {
-    backwards = character + backwards;
-  }
-  return backwards;
+	let backwards = '';
+	for (const character of text) {
+		backwards = character + backwards;
+	}
+	return backwards;
 };
 console.assert(reverseString('') === '', 'Test 1');
 console.assert(reverseString('1234') === '4321', 'Test 2');
@@ -92,7 +92,7 @@ console.assert(reverseString('ooo') === 'ooo', 'Test 5');
 // -- gather user input --
 let input = null;
 while (input === null) {
-  input = prompt('enter some text to reverse');
+	input = prompt('enter some text to reverse');
 }
 
 // -- use your program logic --
@@ -163,3 +163,8 @@ will make your code easier to read, to test and to develop as a team.
 Practice using, writing and refactoring functions that process arrays. Be
 careful of side-effects! Your functions should return new arrays and not modify
 the original one.
+
+### 5. DOM UI
+
+Do all that stuff up there, but in event-driven programs with a proper DOM user
+interface.

@@ -1,7 +1,11 @@
 'use strict';
 
+// ===== helper function =====
+
 // prettier-ignore
 const deepCompare = (actual, expect) => actual === expect || Object.is(actual, expect) || (Object(actual) === actual && Object(expect) === expect) && (Array.isArray(actual) && Array.isArray(expect) && actual.length === expect.length && expect.every((expect, index) => deepCompare(actual[index], expect)) || Object.keys(actual).length === Object.keys(expect).length && Object.keys(expect).every((key) => deepCompare(actual[key], expect[key])));
+
+// ===== main program =====
 
 // one array in memory
 //  how many solutions can you find?

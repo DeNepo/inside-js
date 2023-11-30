@@ -1,3 +1,6 @@
+[<<< Welcome to JS](https://github.com/DeNepo/welcome-to-js) || Inside JS ||
+[Behavior, Strategy, Implementation >>>](https://github.com/DeNepo/behavior-strategy-implementation)
+
 # Inside JS
 
 <!-- need a thing here -->
@@ -32,7 +35,7 @@ your study time and to measure your progress:
 
 </details>
 
-### [0. Asserting](./0-asserting)
+### [0. Asserting](./00-asserting)
 
 - **Skills**:
   - [ ] 🥚 **Predicting Execution**: You can use the browser's debugger to step
@@ -56,7 +59,7 @@ your study time and to measure your progress:
   - [ ] 🥚 **`console.assert`**: You can use the `console.assert` for assertion
         testing, and can write a helpful message assertion message.
 
-### [1. Primitives and Operators](./1-primitives-and-operators)
+### [1. Primitives and Operators](./01-primitives-and-operators)
 
 - **Skills**:
   - [ ] 🥚 **Predicting Truthiness**: You can predict the truthiness of any
@@ -91,7 +94,42 @@ your study time and to measure your progress:
   - [ ] 🐔 **Arithmetic**: You can use JavaScript to do math, and can explain or
         debug your expressions when they evaluate to something unexpected.
 
-### [2. Control Flow](./2-control-flow)
+### [2. Just Enough DOM](./02-just-enough-dom)
+
+- **Skills**:
+  - [ ] 🥚 **Event-Driven Programming**: You can explain and discuss this
+        _programming paradigm_ in terms of the user interface, user
+        interactions, and processing user input.
+  - [ ] 🐣 **Entry Points**: You can explain the concept of _program entry
+        points_ by describing which lines of code are executed when a program is
+        loaded, and which lines of code are executed when a user takes an
+        action.
+  - [ ] 🐣 **Program Structure**: You can understand and modify programs using
+        the structure described in `/02-just-enough-dom` - _imports_,
+        _description_, _constants_, _state_, _DOM elements_, _interactions_,
+        _initialization_.
+- **Language Features**: You are comfortable reading, tracing, and completing
+  programs that use ...
+  - [ ] 🥚 **`document.getElementById('')`**: You can access a single DOM
+        element using it's unique ID attribute, and save it to a variable for
+        use in your program.
+  - [ ] 🥚 **`checkbox.checked`**: You can read a boolean value from inputs with
+        `type="checkbox"`.
+  - [ ] 🥚 **`Number(numberInput.value)`**: You can read a string value from
+        inputs with `type="number"` and cast the value to type `number` in your
+        program.
+  - [ ] 🥚 **`otherInput.value`**: You can read a string value from all other
+        input types.
+  - [ ] 🥚 **`pre.innerText`**: You can display a formatted string in the DOM by
+        assigning to a `<pre>` element's `.innerText` property.
+  - [ ] 🐣 **`element.addEventListener('input'/'click', () => {})`**: You can
+        define what code should be executed when a user interacts with a
+        specific element. You do not need to completely understand this syntax
+        or how functions work, it's enough if you can complete the exercises in
+        this chapter. (You'll learn about functions later on, then it will all
+        make sense.)
+
+### [3. Control Flow](./03-control-flow)
 
 - **Skills**:
   - [ ] 🥚 **Imperative Programming**: You can define the _imperative_
@@ -131,7 +169,7 @@ your study time and to measure your progress:
   - [ ] 🐣 **Continue**: You can predict and trace simple programs that use
         `continue`.
 
-### [3. Functions](./3-functions)
+### [4. Functions](./04-functions)
 
 - **Skills**:
   - [ ] 🥚 **Tracing**: You can use the debugger to predict and check the
@@ -165,7 +203,7 @@ your study time and to measure your progress:
     3. **Parent Scope Variables**: A variable that was declared outside of the
        function but used inside the function (avoid this for now.)
 
-### [5. Unit Testing](./5-unit-testing)
+### [5. Unit Testing](./05-unit-testing)
 
 - **Skills**:
   - [ ] 🥚 **Testing Environments**: You understand that the conventional
@@ -191,7 +229,7 @@ your study time and to measure your progress:
 - **Language Features**:
   - nothing new here!
 
-### [6. ES Modules](./6-es-modules)
+### [6. ES Modules](./06-es-modules)
 
 - **Skills**:
   - [ ] 🥚 **Spec Files**: You can work with functions and unit tests separated
@@ -212,7 +250,7 @@ your study time and to measure your progress:
   - [ ] 🐥 **Module Life-Cycle**: You understand that ES Modules are _static_,
         and are evaluated at _creation phase_.
 
-### [6. Using Functions](./6-using-functions)
+### [7. Using Functions](./07-using-functions)
 
 - **Skills**:
   - [ ] 🥚 **Procedural Programming**: You can define the _procedural_
@@ -229,7 +267,7 @@ your study time and to measure your progress:
 - **Language Features**:
   - Nothing new here!
 
-### [7. Arrays](./7-arrays)
+### [8. Arrays](./08-arrays)
 
 - **Skills**:
   - [ ] 🥚 **Reference vs. Value**: You can explain how arrays are stored in
@@ -282,7 +320,7 @@ your study time and to measure your progress:
   - [ ] 🥚 **Spread Syntax**: you can use spread syntax to create a _shallow_
         copy of an array: `const shallowCopy = [...arr];`
 
-### [8. Functional Array Methods](./8-functional-array-methods)
+### [9. Functional Array Methods](./09-functional-array-methods)
 
 - **Skills**:
   - [ ] 🥚 **Declarative Programming**: You can define the _declarative_
@@ -326,7 +364,7 @@ your study time and to measure your progress:
         with an implicit return and can decide if it makes your code more or
         less readable.
 
-### [9. Multiple Interactions](./9-multiple-interactions)
+### [10. Multiple Interactions](./10-multiple-interactions)
 
 - **Skills**:
   - [ ] 🥚 **Avoiding Side Effects**: You can read, debug and write functions
