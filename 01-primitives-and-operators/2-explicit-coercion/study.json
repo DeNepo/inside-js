@@ -1,11 +1,11 @@
 {
-  "study": {
-    "trace": {
-      "console": false,
-      "operators": false,
-      "variablesDeclare": false,
-      "variablesAssign": false,
-      "variablesRead": false
-    }
-  }
+	"study": {
+		"trace": {
+			"console": false,
+			"operators": false,
+			"variablesDeclare": false,
+			"variablesAssign": false,
+			"variablesRead": false
+		}
+	}
 }

@@ -1,8 +1,8 @@
 {
-  "study": {
-    "type": "module",
-    "environment": true,
-    "ask": false,
-    "trace": false
-  }
+	"study": {
+		"type": "module",
+		"environment": true,
+		"ask": false,
+		"trace": false
+	}
 }

@@ -1,9 +1,9 @@
 {
-  "study": {
-    "trace": {
-      "variablesDeclare": false,
-      "variablesAssign": false,
-      "variablesRead": false
-    }
-  }
+	"study": {
+		"trace": {
+			"variablesDeclare": false,
+			"variablesAssign": false,
+			"variablesRead": false
+		}
+	}
 }

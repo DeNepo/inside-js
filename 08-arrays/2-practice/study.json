@@ -1,6 +1,6 @@
 {
-  "study": {
-    "type": "module",
-    "environment": true
-  }
+	"study": {
+		"type": "module",
+		"environment": true
+	}
 }

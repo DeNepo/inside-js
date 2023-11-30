@@ -15,7 +15,7 @@ to that.
 // these two functions do exactly the same thing!
 
 const explicitReturn = (a, b) => {
-  return a + b;
+	return a + b;
 };
 
 const implicitReturn = (a, b) => a + b;
