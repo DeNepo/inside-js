@@ -1,13 +1,5 @@
 # Functional Array Methods
 
----
-
-## Before Class
-
-- Study the callstack and how to find it in your debugger.
-
----
-
 ## Learning Objectives
 
 - 🥚 **Callbacks:** You can explain what a callback is and how they're used.
@@ -21,9 +13,3 @@
   function.
 - 🐣 **Consuming Callbacks:** You can write a simple function that uses
   callbacks.
-
----
-
-## After Class
-
-Nothing new, just keep at it!

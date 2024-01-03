@@ -4,18 +4,6 @@ In this class you'll study the starter repository for the
 [Numbers Group Project](https://github.com/HackYourFutureBelgium/numbers-group-project),
 form small groups (3-4) and prepare for the week's deliverable..
 
----
-
-## Prep Work
-
-- Come prepared to use object dot notation:
-  - Reading a key/value pair: `obj.key`
-  - Writing a key/value pair: `obj.key = __`
-- Practice opening and stepping through one example program in this lesson plan.
-  (any one will do, you can study the rest in class)
-
----
-
 ## Learning Objectives
 
 ### In-Class Practice
@@ -50,7 +38,7 @@ To prepare for the group project you can:
 
 ## During Class
 
-### Before Break
+### After Break
 
 - _All Together_: Read and step through 1-2 of the example programs.
   - What are the _entry points_ to each script file?
@@ -61,8 +49,6 @@ To prepare for the group project you can:
   - How is the user's data processed? Is it stored between interactions?
 - _Small Groups_: Continue studying the example programs.
   - Try making small changes and seeing what happens!
-
-### After Break
 
 - _All Together_: Read through the
   [Numbers Group Project](https://github.com/HackYourFutureBelgium/numbers-group-project)

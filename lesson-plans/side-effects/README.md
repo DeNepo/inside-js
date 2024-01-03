@@ -19,6 +19,12 @@ Side Effects:
 - [Mosh video](https://www.youtube.com/watch?v=fD0t_DKREbE)
 - [CodeBurst article](https://codeburst.io/javascript-passing-by-value-vs-reference-explained-in-plain-english-8d00fd06a47c)
 
+- Come prepared to use object dot notation:
+  - Reading a key/value pair: `obj.key`
+  - Writing a key/value pair: `obj.key = __`
+- Practice opening and stepping through one example program in this lesson plan.
+  (any one will do, you can study the rest in class)
+
 ---
 
 ## Learning Objectives
@@ -53,8 +59,6 @@ Side Effects:
 - **All Together:** Regroup with ~20 minutes left before break for each group to
   do a quick retro
 
-### After Break
-
 - **All together:** Testing Side-Effects
 - **In Small Groups:**
   - exercises
@@ -77,9 +81,3 @@ Side-Effects</a>
 Testing Side-Effects</a>
 
 ---
-
-## After Class
-
-Keep going with the exercises in this repo and your favorite tutorials.
-
-_Using Functions_ is extra important if you haven't finished that chapter yet.

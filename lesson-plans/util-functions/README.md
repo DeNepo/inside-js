@@ -11,6 +11,7 @@ understand and test.
 - Take a look through `/6-using-functions`
 - Review _reference vs. value_ and _side-effects_.
 - Take a look at objects from `/9-multiple-interactions`
+- Study the callstack and how to find it in your debugger.
 
 ---
 
@@ -44,8 +45,6 @@ understand and test.
   - what went well
   - lessons learned
 
-### After Break
-
 - _All Together_: Study the first two examples:
   - How are _side-effects_ used to store and modify the user's data?
   - How can you use the Scopes pane in your debugger to see this?
@@ -58,7 +57,3 @@ understand and test.
   - lessons learned
 
 ---
-
-## After Class
-
-- Continue studying your favorite tutorials and the exercises in this repo.
