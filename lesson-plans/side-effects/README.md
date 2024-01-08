@@ -4,7 +4,7 @@ Learn about reference vs. value, and how to avoid side-effects in JS functions.
 
 ---
 
-## Before Class
+## Prep Work
 
 Study arrays and come prepared to use these language features in class:
 
