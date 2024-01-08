@@ -46,10 +46,6 @@ Side Effects:
 
 ---
 
-## During Class
-
-### Before Break
-
 - **All together:** Reference vs. Value
 - **In Small Groups:**
   - swapping

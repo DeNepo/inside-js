@@ -36,10 +36,6 @@ To prepare for the group project you can:
 
 ---
 
-## During Class
-
-### After Break
-
 - _All Together_: Read and step through 1-2 of the example programs.
   - What are the _entry points_ to each script file?
   - What functions/objects are declared in the script? Which are imported from
@@ -61,11 +57,3 @@ To prepare for the group project you can:
     [project template](https://github.com/HackYourFutureBelgium/numbers-group-project)
   - Practice running the `package.json` scripts on your local computers
   - Create a project board with one issue per user interaction
-
----
-
-## After Class
-
-- Continue studying your favorite tutorials and the exercises in this repo.
-- **Deliverable**: Work with your group to complete as much of the Numbers
-  project as you can.

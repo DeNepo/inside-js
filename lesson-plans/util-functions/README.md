@@ -30,10 +30,6 @@ understand and test.
 
 ---
 
-## During Class
-
-### Before Break
-
 - _All Together_: Study the examples from `./1-primitives`
   - How are `/util` functions used?
   - What is easier about using `/util` functions?
