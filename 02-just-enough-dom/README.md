@@ -207,8 +207,8 @@ humans to know the file's purpose:
 
 ```
 /exercise-name
-	/index.html
-	/script.js
-	/script.re.js
-	/styles.css
+ /index.html
+ /script.js
+ /script.re.js
+ /styles.css
 ```
